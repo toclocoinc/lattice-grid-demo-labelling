@@ -11,8 +11,9 @@ label counts and a clean CSV export.
   committed by typing or pasting in the grid.
 - **Keyboard-only flow**: `Tab` into the grid, arrows to the *My label* cell,
   `Enter` opens the list, arrows (or type `h` / `s` / `u`) choose, `Enter`
-  commits, `Down` moves to the next message. `Ctrl+Home` then `Shift+Tab` leaves
-  the grid for the queue buttons.
+  commits, `Down` moves to the next message. `Tab` / `Shift+Tab` leave the grid
+  for the next or previous control, `Delete` clears a label and `Ctrl+Z` undoes
+  (Lattice Grid 1.86.2 and later).
 - **Review queue**: *Unlabelled* (no label yet) and *Disagreement* (your label
   differs from the original UCI label) are filters on a computed *Status*
   column (`unlabelled` / `agrees` / `disagrees`).
