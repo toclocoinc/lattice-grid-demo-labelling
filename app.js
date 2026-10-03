@@ -14,7 +14,7 @@ function save(labels) {
 }
 
 const saved = load();
-const rows = (await (await fetch('sms.json?v=20261003a-1634')).json())
+const rows = (await (await fetch('sms.json?v=20261003t')).json())
   .map((r) => ({ ...r, label: saved[r.id] || '' }));
 const statusOf = ({ label, uci }) => (!label ? 'unlabelled' : label === uci ? 'agrees' : 'disagrees');
 
