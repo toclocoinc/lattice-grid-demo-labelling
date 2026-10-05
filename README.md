@@ -1,6 +1,6 @@
 # Label text in the browser, keyboard only
 
-A [Lattice Grid](https://latticegrid.dev) demo: 5,574 SMS messages to label as
+A [Lattice Grid](https://www.latticegrid.dev) demo: 5,574 SMS messages to label as
 `ham`, `spam` or `unsure`, entirely from the keyboard, with a review queue, live
 label counts and a clean CSV export.
 
